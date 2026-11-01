@@ -47,6 +47,14 @@ curl -fsSL https://raw.githubusercontent.com/JosTheDude/synthwave/main/install.s
 irm https://raw.githubusercontent.com/JosTheDude/synthwave/main/install.ps1 | iex
 ```
 
+### Homebrew
+
+```sh
+brew tap JosTheDude/synthwave https://github.com/JosTheDude/synthwave
+brew install synthwave         # pulls in mpv, yt-dlp and Python
+synthwave
+```
+
 ### By hand
 
 You need [mpv](https://mpv.io), [yt-dlp](https://github.com/yt-dlp/yt-dlp) and Python 3.9+, with
