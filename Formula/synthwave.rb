@@ -3,8 +3,8 @@ class Synthwave < Formula
 
   desc "Tiny, vibey terminal radio for Lofi Girl's live streams"
   homepage "https://github.com/JosTheDude/synthwave"
-  url "https://github.com/JosTheDude/synthwave.git", revision: "a30dbc87aa8c01cdc02bec1ad5343fb30981f5f6"
-  version "0.1.0-a30dbc8"
+  url "https://github.com/JosTheDude/synthwave.git", revision: "02dcebd5e05c55e04d56cb9e92b027d8a1a55e05"
+  version "0.1.0-02dcebd"
   license "MIT"
   head "https://github.com/JosTheDude/synthwave.git", branch: "main"
 
