@@ -31,6 +31,7 @@ about 20 MB of memory and around 1% CPU while it animates.
 - A settings menu for the visualizer, quotes, launch countdown and every key
 - Remembers your station, volume and settings
 - A new quote every couple of minutes, or whenever you click for one
+- Checks for updates when it starts and offers to install them (Homebrew, uv and pipx installs)
 
 ## Install
 
@@ -173,6 +174,7 @@ can edit the file by hand too. Anything invalid falls back to its default.
 | `synthwave/visualizer.py` | the audio filter, level meter and decorative wave |
 | `synthwave/mpv.py` | mpv process and IPC client |
 | `synthwave/config.py` | settings file: defaults, validation, saving |
+| `synthwave/update.py` | startup update check and updater |
 | `synthwave/stations.py` | station list |
 | `synthwave/quotes.py` | quote list |
 

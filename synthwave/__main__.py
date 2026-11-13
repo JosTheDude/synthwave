@@ -1,10 +1,12 @@
 """Entry point for `synthwave` and `python -m synthwave`."""
 import contextlib, curses, shutil, signal, sys
 
+from . import update
 from .app import App
 
 
 def main():
+    update.check()
     missing = [tool for tool in ("mpv", "yt-dlp") if not shutil.which(tool)]
     if missing:
         sys.exit(f"synthwave needs {' and '.join(missing)} on your PATH (see Install in the README)")
